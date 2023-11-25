@@ -1,0 +1,35 @@
+.ToDoApp {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.ToDoApp h1 {
+    text-align: center;
+    color: #4a4a4a;
+}
+
+.ToDoApp input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+}
+
+.ToDoApp button {
+    width: 20%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ToDoApp button:hover {
+    background-color: #4cae4c;
+}
